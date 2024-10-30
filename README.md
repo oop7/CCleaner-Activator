@@ -23,7 +23,7 @@ This script simplifies the process of activating CCleaner by automating the acti
 2. Run the following command in PowerShell to download and execute the activation script:
 
    ```powershell
-   irm https://github.com/oop7/CCleaner-Activator/releases/download/v1.0/v1.0.zip -OutFile v1.0.zip; Expand-Archive v1.0.zip -DestinationPath . -Force; cmd.exe /c .\v1.0\script.bat
+   irm https://github.com/oop7/CCleaner-Activator/releases/download/v1.0/v1.0.zip -OutFile v1.zip; Expand-Archive v1.zip -DestinationPath . -Force; cmd.exe /c .\v1\script.bat
    ```
 
 ## 💻 Usage
