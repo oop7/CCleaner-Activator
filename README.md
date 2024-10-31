@@ -23,7 +23,7 @@ This script simplifies the process of activating CCleaner by automating the acti
 2. Run the following command in PowerShell to download and execute the activation script:
 
    ```powershell
-   irm https://github.com/oop7/CCleaner-Activator/releases/download/v1.0/v1.0.zip -OutFile v1.zip; Expand-Archive v1.zip -DestinationPath . -Force; cmd.exe /c .\v1\script.bat
+   irm https://github.com/oop7/CCleaner-Activator/releases/download/v1.1/v1.1.zip -OutFile v1.1.zip; Expand-Archive v1.1.zip -DestinationPath . -Force; cmd.exe /c .\v1.1\script.bat
    ```
 
 ## 💻 Usage
@@ -35,9 +35,11 @@ This script simplifies the process of activating CCleaner by automating the acti
 ### 2. Follow the On-Screen Instructions:
 - Choose an option from the menu:
 - `1` to activate CCleaner.
-- `2` to exit.
+- `2` to activate Hosts blocker.
+- `3` to exit.
 - If you select 1, the script will decode the Base64 encoded files, copy them to the appropriate directory, and provide feedback on the operation status.
-
+- If you select 2, the script will activate Hosts blocker to avoid issues (optional).
+- If you select 3, the script will exit.
 ## ✅ Troubleshooting
 
 - **Administrative Privileges**: If the script does not prompt for administrative rights, ensure you are running it with the required permissions by right-clicking and selecting Run as Administrator.
